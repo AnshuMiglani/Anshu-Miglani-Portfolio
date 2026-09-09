@@ -16,9 +16,3 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 document.getElementById('year').textContent = new Date().getFullYear();
 
-document.querySelectorAll('[data-placeholder]').forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    alert(`Add your ${link.dataset.placeholder} profile URL here in index.html.`);
-  });
-});

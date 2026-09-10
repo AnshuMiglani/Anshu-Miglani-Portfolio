@@ -1,6 +1,6 @@
 # Anshu Miglani — Portfolio Website
 
-A responsive, recruiter-ready, high-aesthetic personal portfolio built directly from Anshu Miglani's 2026 software engineering resume with live project deployments and interactive recruiter tools.
+A responsive, recruiter-ready, high-aesthetic personal portfolio for **Anshu Miglani** (Recent B.Tech Computer Science graduate from UIET Kurukshetra, 8.9 CGPA) with live project deployments, SDE internship experience at Transpacks Technologies, and verified resume download.
 
 ---
 

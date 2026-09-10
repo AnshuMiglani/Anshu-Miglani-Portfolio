@@ -1840,7 +1840,27 @@ a {
 }
 
 .card-icon {
-  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.card-icon svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.contact-card:hover .card-icon {
+  background: rgba(64, 91, 255, 0.12);
+  border-color: rgba(64, 91, 255, 0.35);
+  transform: scale(1.08);
 }
 
 .card-label {
@@ -1905,7 +1925,7 @@ a {
 .social-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 12px 24px;
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.04);
@@ -1913,6 +1933,14 @@ a {
   font: 600 13px "DM Mono", monospace;
   color: #c0bcb4;
   transition: all 0.3s;
+  text-decoration: none;
+}
+
+.social-btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
 }
 
 .social-btn:hover {
@@ -1920,6 +1948,34 @@ a {
   border-color: rgba(64, 91, 255, 0.4);
   color: #fff;
   transform: translateY(-2px);
+}
+
+.social-btn:hover svg {
+  transform: scale(1.15);
+}
+
+.social-btn.github-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+
+.social-btn.linkedin-btn:hover {
+  background: rgba(10, 102, 194, 0.2);
+  border-color: rgba(10, 102, 194, 0.5);
+  color: #388bfd;
+}
+
+.social-btn.leetcode-btn:hover {
+  background: rgba(255, 161, 22, 0.15);
+  border-color: rgba(255, 161, 22, 0.5);
+  color: #ffa116;
+}
+
+.social-btn.mail-btn:hover {
+  background: rgba(64, 91, 255, 0.2);
+  border-color: rgba(64, 91, 255, 0.5);
+  color: #cad3ff;
 }
 
 .social-btn:hover .btn-arrow {
@@ -2209,7 +2265,40 @@ a {
 }
 
 .dock-icon {
-  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dock-icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.dock-btn:hover .dock-icon svg {
+  transform: scale(1.15);
+}
+
+.dock-btn.github-dock:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
+.dock-btn.linkedin-dock:hover {
+  background: rgba(10, 102, 194, 0.25);
+  border-color: rgba(10, 102, 194, 0.6);
+  color: #388bfd;
+}
+
+.dock-btn.leetcode-dock:hover {
+  background: rgba(255, 161, 22, 0.2);
+  border-color: rgba(255, 161, 22, 0.6);
+  color: #ffa116;
 }
 
 .dock-tooltip {
@@ -2294,12 +2383,28 @@ footer {
 }
 
 .footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   color: #8f8b82;
-  transition: color 0.25s;
+  transition: color 0.25s, transform 0.25s;
+  text-decoration: none;
+}
+
+.footer-socials a svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+  transition: transform 0.25s ease;
 }
 
 .footer-socials a:hover {
   color: #fff;
+  transform: translateY(-1px);
+}
+
+.footer-socials a:hover svg {
+  transform: scale(1.15);
 }
 
 .back-to-top {

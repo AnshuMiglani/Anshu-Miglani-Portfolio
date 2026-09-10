@@ -4,52 +4,150 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Anshu Miglani — Full-Stack Developer, AI/ML Builder and Software Engineer." />
-  <title>Anshu Miglani — Full-Stack Developer</title>
+  <meta name="description"
+    content="Anshu Miglani — Full-Stack Developer, AI/ML Builder, and SDE Intern. Hands-on experience in MERN, Next.js, FastAPI, WebSockets, Docker, AWS, and Generative AI (RAG & LangChain)." />
+  <meta name="keywords"
+    content="Anshu Miglani, Full Stack Developer, Software Engineer, React, Next.js, FastAPI, Node.js, Socket.io, MERN, AI, LangChain, RAG, Kurukshetra, UIET" />
+  <meta name="author" content="Anshu Miglani" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Anshu Miglani — Full-Stack Developer & AI/ML Engineer" />
+  <meta property="og:description"
+    content="Portfolio of Anshu Miglani. Explore live projects, production experience at Transpacks Technologies, 400+ LeetCode achievements, and applied AI systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/AnshuMiglani/Anshu-Miglani-Portfolio" />
+  <meta name="theme-color" content="#0d0d0d" />
+
+  <title>Anshu Miglani — Full-Stack Developer & Software Engineer</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <div class="scroll-progress"></div>
   <div class="cursor-glow"></div>
   <div class="noise"></div>
 
+  <!-- Header -->
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Anshu Miglani home">
       <span class="brand-mark">AM</span>
-      <span>Anshu Miglani</span>
+      <span class="brand-name">Anshu Miglani</span>
     </a>
+
     <nav class="nav">
-      <a href="#work">Work</a>
+      <a href="#work">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#education">Education</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="nav-cta" href="mailto:anshumiglani0808@gmail.com">Let's talk <span>↗</span></a>
+
+    <div class="header-actions">
+      <a class="button ghost small resume-nav-btn" href="Anshu_Miglani_Resume.pdf" target="_blank"
+        rel="noopener noreferrer" download="Anshu_Miglani_Resume.pdf" aria-label="Download Resume PDF">
+        <span>📄 Resume</span>
+      </a>
+      <a class="nav-cta" href="mailto:anshumiglani0808@gmail.com">Let's talk <span>↗</span></a>
+      <button class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
   </header>
 
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay">
+    <a href="#work">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#education">Education</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a class="button primary small" href="Anshu_Miglani_Resume.pdf" target="_blank" rel="noopener noreferrer"
+      download="Anshu_Miglani_Resume.pdf">Download Resume (PDF) 📄</a>
+  </div>
+
   <main id="top">
+    <!-- Hero Section -->
     <section class="hero section">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="dot"></span> AVAILABLE FOR FULL-TIME OPPORTUNITIES</p>
-        <h1>I build <em>useful</em><br>digital products.</h1>
-        <p class="hero-text">
-          Full-stack developer focused on real-time systems, scalable web apps,
-          cloud deployment and practical AI experiences.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="button ghost" href="mailto:anshumiglani0808@gmail.com">Email me <span>↗</span></a>
+        <div class="eyebrow-container">
+          <p class="eyebrow"><span class="dot pulse-green"></span> AVAILABLE FOR FULL-TIME SDE ROLES</p>
+          <span class="location-badge">📍 Kurukshetra, India</span>
         </div>
+
+        <h1 class="hero-title">
+          Building <em>real-time</em><br>
+          scalable software.
+        </h1>
+
+        <p class="hero-text">
+          Final-year Computer Science student at <strong>UIET, Kurukshetra</strong> (8.9 CGPA) with hands-on full-stack
+          experience in <strong>MERN, Next.js, and FastAPI</strong>. Former SDE Intern at <strong>Transpacks
+            Technologies</strong> developing real-time logistics dashboards, WebSocket architectures, Dockerized cloud
+          deployments, and applied GenAI with <strong>LangChain & RAG</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore Live Work <span>↓</span></a>
+          <a class="button secondary" href="Anshu_Miglani_Resume.pdf" target="_blank" rel="noopener noreferrer"
+            download="Anshu_Miglani_Resume.pdf">
+            <span>View Resume (PDF)</span> <span>📄</span>
+          </a>
+          <a class="button ghost" href="mailto:anshumiglani0808@gmail.com">Email Me <span>↗</span></a>
+        </div>
+
+        <!-- Social Quick Links in Hero -->
+        <div class="hero-socials">
+          <a href="https://github.com/AnshuMiglani" target="_blank" rel="noopener noreferrer" class="social-chip"
+            title="GitHub Profile">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/anshu-miglani-a00755257/" target="_blank" rel="noopener noreferrer"
+            class="social-chip" title="LinkedIn Profile">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer"
+            class="social-chip leetcode-chip" title="LeetCode (400+ Solved)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.874 5.874 0 0 0 .349 1.017 5.938 5.938 0 0 0 4.064 3.655c.502.115 1.022.176 1.549.177a6.046 6.046 0 0 0 4.177-1.73l5.064-5.282a1.376 1.376 0 0 0-.018-1.938 1.376 1.376 0 0 0-1.938.018l-5.06 5.281a3.3 3.3 0 0 1-2.28 1.002 3.25 3.25 0 0 1-.84-.112 3.23 3.23 0 0 1-2.215-2 3.01 3.01 0 0 1-.192-.555 3.01 3.01 0 0 1-.034-1.288 2.87 2.87 0 0 1 .659-1.147l3.85-4.12 4.966-5.31A1.374 1.374 0 0 0 13.483 0zm4.496 9.387c-.759 0-1.374.615-1.374 1.374v4.757c0 .759.615 1.374 1.374 1.374h4.272c.759 0 1.374-.615 1.374-1.374 0-.759-.615-1.374-1.374-1.374h-2.898v-3.383c0-.759-.615-1.374-1.374-1.374z" />
+            </svg>
+            <span>LeetCode (400+)</span>
+          </a>
+          <button class="social-chip copy-btn" data-copy="anshumiglani0808@gmail.com" title="Copy Email">
+            <span>📋 Copy Email</span>
+          </button>
+        </div>
+
         <div class="quick-stats">
-          <div><strong>400+</strong><span>LeetCode</span></div>
+          <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer" class="stat-link"
+            title="View LeetCode Profile">
+            <strong>400+</strong>
+            <span>LeetCode Solved ↗</span>
+          </a>
           <div><strong>8.9</strong><span>B.Tech CGPA</span></div>
-          <div><strong>100+</strong><span>Concurrent users</span></div>
+          <div><strong>5★</strong><span>HackerRank C++</span></div>
+          <div><strong>100+</strong><span>Concurrent Users</span></div>
         </div>
       </div>
 
@@ -60,254 +158,873 @@
           <div class="orbit orbit-three"></div>
           <div class="core">
             <span>AM</span>
-            <small>BUILD · SHIP · LEARN</small>
+            <small>BUILD · SHIP · SCALE</small>
           </div>
-          <div class="float-card card-a"><span>⚡</span> Next.js</div>
-          <div class="float-card card-b"><span>◈</span> FastAPI</div>
-          <div class="float-card card-c"><span>AI</span> RAG</div>
+          <div class="float-card card-a"><span>⚡</span> Next.js & FastAPI</div>
+          <div class="float-card card-b"><span>◈</span> WebSockets & Socket.io</div>
+          <div class="float-card card-c"><span>AI</span> LangChain & RAG</div>
+          <div class="float-card card-d"><span>☁️</span> Docker & AWS</div>
         </div>
       </div>
     </section>
 
+    <!-- Marquee Ticker -->
     <section class="ticker" aria-label="Technologies">
       <div class="ticker-track">
-        <span>REACT</span><b>✦</b><span>NEXT.JS</span><b>✦</b><span>NODE.JS</span><b>✦</b>
-        <span>FASTAPI</span><b>✦</b><span>SOCKET.IO</span><b>✦</b><span>DOCKER</span><b>✦</b>
-        <span>AWS</span><b>✦</b><span>LANGCHAIN</span><b>✦</b><span>RAG</span><b>✦</b>
-        <span>MONGODB</span><b>✦</b><span>REACT</span><b>✦</b><span>NEXT.JS</span><b>✦</b>
-        <span>NODE.JS</span><b>✦</b><span>FASTAPI</span><b>✦</b><span>DOCKER</span><b>✦</b>
+        <span>MERN STACK</span><b>✦</b><span>NEXT.JS</span><b>✦</b><span>FASTAPI</span><b>✦</b>
+        <span>SOCKET.IO</span><b>✦</b><span>LANGCHAIN</span><b>✦</b><span>RAG & GENAI</span><b>✦</b>
+        <span>DOCKER</span><b>✦</b><span>AWS</span><b>✦</b><span>MONACO EDITOR</span><b>✦</b>
+        <span>MONGODB</span><b>✦</b><span>MYSQL</span><b>✦</b><span>C++</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b><span>STRAPI</span><b>✦</b><span>REST APIS</span><b>✦</b>
+        <span>MERN STACK</span><b>✦</b><span>NEXT.JS</span><b>✦</b><span>FASTAPI</span><b>✦</b>
+        <span>SOCKET.IO</span><b>✦</b><span>LANGCHAIN</span><b>✦</b><span>DOCKER</span><b>✦</b>
       </div>
     </section>
 
+    <!-- 01 / EXPERIENCE -->
     <section id="work" class="section section-dark">
       <div class="section-heading reveal">
-        <p class="eyebrow">01 / EXPERIENCE</p>
-        <h2>Building software<br><span>that moves.</span></h2>
+        <div>
+          <p class="eyebrow">01 / PRODUCTION EXPERIENCE</p>
+          <h2>Engineering software<br><span>that impacts users.</span></h2>
+        </div>
+        <span class="section-tag">SDE INTERNSHIP</span>
       </div>
 
       <article class="experience-card reveal">
         <div class="experience-top">
           <div>
-            <p class="mono muted">OCT 2025 — AUG 2026</p>
-            <h3>Software Development Engineer Intern</h3>
+            <div class="experience-badge-row">
+              <span class="mono muted date-pill">OCT 2025 — AUG 2026</span>
+              <span class="company-status">Verified Internship</span>
+            </div>
+            <h3 class="role-title">Software Development Engineer Intern <span class="role-subtitle">(SDE Intern)</span>
+            </h3>
             <p class="company">Transpacks Technologies Pvt. Ltd.</p>
           </div>
-          <span class="role-tag">SDE · FULL STACK</span>
+          <div class="role-pills">
+            <span class="role-tag">FULL STACK</span>
+            <span class="role-tag">BACKEND APIS</span>
+            <span class="role-tag">CLOUD & DOCKER</span>
+          </div>
         </div>
+
         <div class="experience-grid">
-          <div class="metric"><strong>100+</strong><span>concurrent users supported</span></div>
-          <div class="metric"><strong>30%</strong><span>faster data lookup</span></div>
-          <div class="metric"><strong>20%</strong><span>fewer deployment issues</span></div>
+          <div class="metric">
+            <strong>100+</strong>
+            <span>concurrent users supported with Next.js & FastAPI</span>
+          </div>
+          <div class="metric">
+            <strong>30%</strong>
+            <span>reduction in platform data lookup time</span>
+          </div>
+          <div class="metric">
+            <strong>20%</strong>
+            <span>fewer deployment issues with CI/CD & Docker</span>
+          </div>
         </div>
-        <ul class="clean-list">
-          <li>Developed logistics and supply-chain features using Next.js, FastAPI and Strapi, improving platform
-            scalability.</li>
-          <li>Built real-time dashboards and REST APIs, reducing data lookup time by 30%.</li>
-          <li>Containerized services with Docker and deployed on AWS for consistent environments and smoother releases.
-          </li>
-          <li>Followed code reviews and CI/CD practices and collaborated in Agile 2-week sprint cycles.</li>
-        </ul>
+
+        <div class="experience-body">
+          <h4 class="responsibilities-title">Key Engineering Contributions:</h4>
+          <ul class="clean-list">
+            <li>
+              <strong>High-Throughput Logistics Platform:</strong> Developed full-stack logistics and supply-chain
+              features using <strong>Next.js, FastAPI, and Strapi</strong>, improving platform scalability to support
+              100+ concurrent active users.
+            </li>
+            <li>
+              <strong>Real-Time Analytics Dashboards:</strong> Built responsive, real-time analytics dashboards and
+              optimized REST APIs, reducing end-to-end data lookup time by <strong>30%</strong>.
+            </li>
+            <li>
+              <strong>Docker & Cloud Containerization:</strong> Containerized multi-tier microservices with
+              <strong>Docker</strong> and deployed on <strong>AWS</strong>, streamlining developer onboarding and
+              creating reliable, reproducible deployment environments.
+            </li>
+            <li>
+              <strong>CI/CD & Code Quality:</strong> Implemented structured peer code reviews and automated CI/CD
+              deployment pipelines, decreasing release failure rates by <strong>20%</strong>.
+            </li>
+            <li>
+              <strong>Agile Collaboration:</strong> Partnered with cross-functional engineering teams in an Agile
+              setting across <strong>2-week sprint cycles</strong>, driving daily standups, backlog grooming, and sprint
+              planning.
+            </li>
+          </ul>
+
+          <div class="experience-tech-row">
+            <span class="tech-chip">Next.js</span>
+            <span class="tech-chip">FastAPI</span>
+            <span class="tech-chip">Strapi</span>
+            <span class="tech-chip">Docker</span>
+            <span class="tech-chip">AWS</span>
+            <span class="tech-chip">REST APIs</span>
+            <span class="tech-chip">CI/CD</span>
+            <span class="tech-chip">Agile</span>
+          </div>
+        </div>
       </article>
     </section>
 
+    <!-- 02 / SELECTED WORK -->
     <section id="projects" class="section">
       <div class="section-heading reveal">
-        <p class="eyebrow">02 / SELECTED WORK</p>
-        <h2>Projects with a<br><span>purpose.</span></h2>
+        <div>
+          <p class="eyebrow">02 / FEATURED PROJECTS</p>
+          <h2>Shipped with live demos<br><span>and clean code.</span></h2>
+        </div>
+        <p class="section-subtext">Click <strong>Live Demo</strong> to interact with the deployed apps, or browse the
+          repositories on GitHub.</p>
+      </div>
+
+      <!-- Project Category Filter Tabs -->
+      <div class="project-filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="realtime">Real-Time & Sockets</button>
+        <button class="filter-btn" data-filter="ai">GenAI & RAG</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack MERN</button>
       </div>
 
       <div class="project-list">
-        <article class="project-card featured reveal">
+        <!-- Project 1: CollabCode (Real-Time Code Editor) -->
+        <article class="project-card featured reveal" data-category="realtime fullstack">
           <div class="project-number">01</div>
           <div class="project-content">
-            <div class="project-meta"><span>REAL-TIME · FULL STACK</span><span>React · Node · Socket.io</span></div>
-            <h3>Real-Time Collaborative<br>Code Editor</h3>
-            <p>Multi-user collaborative coding environment with live code synchronization, room-based sessions and
-              Monaco Editor support for 10+ programming languages.</p>
-            <div class="project-footer"><span>50+ simultaneous users</span><span class="arrow">↗</span></div>
-          </div>
-          <div class="project-visual code-window">
-            <div class="window-bar"><i></i><i></i><i></i><span>editor.js</span></div>
-            <pre><code><span>const</span> room = <b>io</b>(socket);
-room.on(<em>'code:update'</em>,
-  ({ code }) =&gt; {
-    editor.setValue(code);
-  }
-);</code></pre>
-          </div>
-        </article>
+            <div class="project-meta-row">
+              <div class="project-meta">
+                <span>REAL-TIME · WEBSOCKETS</span>
+                <span>React · Node · Socket.io · Monaco</span>
+              </div>
+              <span class="live-indicator"><span class="pulse-dot"></span> Live on Vercel & Render</span>
+            </div>
 
-        <article class="project-card reveal">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <div class="project-meta"><span>AI · FITNESS</span><span>MERN · Gemini API</span></div>
-            <h3>MakeFit</h3>
-            <p>Fitness platform with JWT authentication, BMI/calorie/macro calculators, SVG muscle maps and an AI FitBot
-              powered by Gemini.</p>
-            <div class="project-footer"><span>100+ active users · 35% engagement lift</span><span class="arrow">↗</span>
+            <h3 class="project-title">Real-Time Collaborative Code Editor <span
+                class="project-alias">(CollabCode)</span></h3>
+
+            <p class="project-desc">
+              Built a multi-user collaborative code editor enabling live code synchronization across <strong>50+
+                simultaneous users</strong> via <strong>WebSockets</strong> with room-based session management and
+              instant state convergence.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Integrated <strong>Monaco Editor</strong> (the engine powering VS Code) with multi-cursor rendering
+                and syntax highlighting for <strong>10+ programming languages</strong> including JavaScript, Python, and
+                C++.</li>
+              <li>Engineered bi-directional event broadcast protocols with <strong>Socket.io</strong> and
+                <strong>Express.js</strong> to ensure latency-free keystroke updates.</li>
+              <li>Architected and deployed the frontend on <strong>Vercel</strong> and real-time backend microservice on
+                <strong>Render</strong>.</li>
+            </ul>
+
+            <div class="project-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">Socket.io</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">Monaco Editor</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">Render</span>
+            </div>
+
+            <div class="project-cta-row">
+              <a class="btn-action btn-live" href="https://collab-code-self.vercel.app" target="_blank"
+                rel="noopener noreferrer">
+                <span>Live Demo</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/CollabCode" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View Source</span>
+              </a>
+              <span class="metric-pill">50+ Active Room Users</span>
             </div>
           </div>
-          <div class="project-visual fitness-visual">
-            <span class="pulse"></span><span class="pulse p2"></span>
-            <div class="fit-center">FIT<span>BOT</span></div>
+
+          <div class="project-visual code-window">
+            <div class="window-bar">
+              <i></i><i></i><i></i>
+              <span>collab-server.js</span>
+              <span class="window-badge">WEBSOCKET</span>
+            </div>
+            <pre><code><span>const</span> io = <b>new Server</b>(server, { cors: '*' });
+io.on(<em>'connection'</em>, (socket) => {
+  socket.on(<em>'join:room'</em>, ({ roomId }) => {
+    socket.join(roomId);
+    socket.to(roomId).emit(<em>'user:joined'</em>);
+  });
+  socket.on(<em>'code:sync'</em>, ({ roomId, code }) => {
+    socket.to(roomId).emit(<em>'code:update'</em>, { code });
+  });
+});</code></pre>
+            <div class="visual-interactive-footer">
+              <span class="pulse-sub">🟢 Real-Time Event Sync</span>
+              <a href="https://collab-code-self.vercel.app" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Launch App ↗</a>
+            </div>
           </div>
         </article>
 
-        <article class="project-card reveal">
+        <!-- Project 2: MakeFit (Fitness Web App & AI) -->
+        <article class="project-card reveal" data-category="ai fullstack">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="project-meta-row">
+              <div class="project-meta">
+                <span>AI · MERN PLATFORM</span>
+                <span>React · Node · MongoDB · Gemini API</span>
+              </div>
+              <span class="live-indicator"><span class="pulse-dot"></span> Live on Vercel</span>
+            </div>
+
+            <h3 class="project-title">MakeFit – Fitness Web App & FitBot AI</h3>
+
+            <p class="project-desc">
+              Built a comprehensive MERN-based fitness and workout platform with <strong>JWT authentication</strong> and
+              session management serving <strong>100+ active users</strong>.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Integrated <strong>FitBot AI</strong> powered by the <strong>Google Gemini API</strong> for
+                contextual, personalized workout and nutrition coaching, driving a <strong>35% increase in user
+                  engagement</strong>.</li>
+              <li>Engineered interactive BMI, calorie, and macro calculators alongside clickable <strong>SVG muscle
+                  maps</strong> for targeted exercise discovery.</li>
+              <li>Optimized UI/UX architecture with a responsive dark-mode aesthetic, decreasing platform bounce rate by
+                <strong>18%</strong>.</li>
+            </ul>
+
+            <div class="project-tags">
+              <span class="tag">MERN Stack</span>
+              <span class="tag">Gemini API</span>
+              <span class="tag">JWT Auth</span>
+              <span class="tag">SVG Muscle Maps</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Vercel</span>
+            </div>
+
+            <div class="project-cta-row">
+              <a class="btn-action btn-live" href="https://gym-webiste-six.vercel.app" target="_blank"
+                rel="noopener noreferrer">
+                <span>Live Demo</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/GymWebiste" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View Source</span>
+              </a>
+              <span class="metric-pill">+35% Engagement</span>
+            </div>
+          </div>
+
+          <div class="project-visual fitness-visual">
+            <span class="pulse"></span><span class="pulse p2"></span>
+            <div class="fit-center">
+              <div class="ai-sparkle">✨</div>
+              <div class="fit-title">FIT<span>BOT AI</span></div>
+              <small class="fit-sub">Gemini API Powered</small>
+            </div>
+            <div class="visual-interactive-footer">
+              <span>MERN + AI Assistant</span>
+              <a href="https://gym-webiste-six.vercel.app" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Open MakeFit ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Real-Time Weather App -->
+        <article class="project-card reveal" data-category="realtime">
           <div class="project-number">03</div>
           <div class="project-content">
-            <div class="project-meta"><span>API · DATA</span><span>OpenWeather · JS</span></div>
-            <h3>Real-Time Weather App</h3>
-            <p>Responsive weather experience delivering live temperature, humidity and forecast data for 100+ global
-              locations.</p>
-            <div class="project-footer"><span>50+ users · 99% uptime</span><span class="arrow">↗</span></div>
+            <div class="project-meta-row">
+              <div class="project-meta">
+                <span>API INTEGRATION · CLIENT ARCHITECTURE</span>
+                <span>OpenWeather API · Dynamic JS · CSS3</span>
+              </div>
+              <span class="live-indicator"><span class="pulse-dot"></span> Live on Vercel</span>
+            </div>
+
+            <h3 class="project-title">Real-Time Global Weather App</h3>
+
+            <p class="project-desc">
+              Integrated the <strong>OpenWeather API</strong> to deliver accurate, real-time meteorological metrics for
+              <strong>100+ global locations</strong>, including dynamic temperature updates, humidity, barometric
+              pressure, and multi-day forecasts.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Deployed the web application reaching <strong>50+ active users with 99% uptime</strong> and sub-second
+                API response caching.</li>
+              <li>Engineered a dynamic UI featuring reactive weather condition icons, glassmorphism telemetry cards, and
+                zero-dependency vanilla JavaScript performance.</li>
+            </ul>
+
+            <div class="project-tags">
+              <span class="tag">JavaScript (ES6+)</span>
+              <span class="tag">OpenWeather API</span>
+              <span class="tag">Async/Await</span>
+              <span class="tag">Dynamic Weather UI</span>
+              <span class="tag">Vercel</span>
+            </div>
+
+            <div class="project-cta-row">
+              <a class="btn-action btn-live" href="https://weatherapp-page-psi.vercel.app" target="_blank"
+                rel="noopener noreferrer">
+                <span>Live Demo</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/weatherapp_page" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View Source</span>
+              </a>
+              <span class="metric-pill">100+ Global Locations</span>
+            </div>
           </div>
+
           <div class="project-visual weather-visual">
             <div class="sun"></div>
             <div class="cloud"></div>
-            <strong>24°</strong><small>REAL-TIME</small>
+            <div class="weather-telemetry">
+              <strong>24°C</strong>
+              <small>LIVE WEATHER METRICS</small>
+            </div>
+            <div class="visual-interactive-footer">
+              <span>Real-Time Forecasts</span>
+              <a href="https://weatherapp-page-psi.vercel.app" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Check Forecast ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Supportpilot-AI (GenAI Showcase) -->
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-number">04</div>
+          <div class="project-content">
+            <div class="project-meta-row">
+              <div class="project-meta">
+                <span>APPLIED GENAI · RAG</span>
+                <span>TypeScript · LangChain · Vector DB</span>
+              </div>
+              <span class="live-indicator"><span class="pulse-dot"></span> Active AI System</span>
+            </div>
+
+            <h3 class="project-title">Supportpilot-AI – Contextual Customer Support Copilot</h3>
+
+            <p class="project-desc">
+              Engineered an intelligent customer support AI copilot utilizing <strong>LangChain</strong> and
+              <strong>Retrieval-Augmented Generation (RAG)</strong> over customized knowledge repositories to automate
+              ticket resolution and provide hallucination-free contextual responses.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Integrated vector databases for semantic document indexing, dense retrieval, and dynamic prompt
+                orchestration.</li>
+              <li>Built with modern <strong>TypeScript</strong> architecture adhering to strict typing, streaming
+                response pipelines, and modular tool calling.</li>
+            </ul>
+
+            <div class="project-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">LangChain</span>
+              <span class="tag">RAG Architecture</span>
+              <span class="tag">Vector Databases</span>
+              <span class="tag">Gemini API</span>
+            </div>
+
+            <div class="project-cta-row">
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/Supportpilot-AI" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View GitHub Repository</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+              <span class="metric-pill">RAG & GenAI</span>
+            </div>
+          </div>
+
+          <div class="project-visual ai-rag-visual">
+            <div class="rag-node node-query">User Query</div>
+            <div class="rag-connector">↓</div>
+            <div class="rag-node node-rag">Vector DB (Dense Retrieval)</div>
+            <div class="rag-connector">↓</div>
+            <div class="rag-node node-llm">LLM Augmented Response</div>
+            <div class="visual-interactive-footer">
+              <span>LangChain + Embeddings</span>
+              <a href="https://github.com/AnshuMiglani/Supportpilot-AI" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: TypingSpeed (Interactive Web App) -->
+        <article class="project-card reveal" data-category="realtime">
+          <div class="project-number">05</div>
+          <div class="project-content">
+            <div class="project-meta-row">
+              <div class="project-meta">
+                <span>INTERACTIVE WEB APP · METRICS</span>
+                <span>JavaScript · Real-Time WPM Tracking</span>
+              </div>
+              <span class="live-indicator"><span class="pulse-dot"></span> Live on Vercel</span>
+            </div>
+
+            <h3 class="project-title">TypingSpeed – Precision Typing Metrics App</h3>
+
+            <p class="project-desc">
+              Interactive web tool designed to measure typing words-per-minute (WPM), character accuracy, and keystroke
+              latency with instant recalculations and error breakdown.
+            </p>
+
+            <div class="project-tags">
+              <span class="tag">HTML5 / CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">WPM Calculation</span>
+              <span class="tag">Vercel</span>
+            </div>
+
+            <div class="project-cta-row">
+              <a class="btn-action btn-live" href="https://typingspeed-two.vercel.app" target="_blank"
+                rel="noopener noreferrer">
+                <span>Live Demo</span>
+                <span class="btn-arrow">↗</span>
+              </a>
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/typingspeed" target="_blank"
+                rel="noopener noreferrer">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                <span>View Source</span>
+              </a>
+              <span class="metric-pill">Instant WPM Analysis</span>
+            </div>
+          </div>
+
+          <div class="project-visual typing-visual">
+            <div class="typing-display">
+              <span class="typing-badge">SPEED TEST</span>
+              <div class="typing-score"><strong>95</strong><small>WPM</small></div>
+              <div class="typing-acc">99.2% Accuracy</div>
+            </div>
+            <div class="visual-interactive-footer">
+              <span>Interactive Benchmark</span>
+              <a href="https://typingspeed-two.vercel.app" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Test Speed ↗</a>
+            </div>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- 03 / TOOLKIT -->
     <section id="skills" class="section section-dark">
       <div class="section-heading reveal">
-        <p class="eyebrow">03 / TOOLKIT</p>
-        <h2>My stack is built<br>for <span>shipping.</span></h2>
+        <div>
+          <p class="eyebrow">03 / TECHNICAL SKILLS</p>
+          <h2>My stack is built<br>for <span>production shipping.</span></h2>
+        </div>
+        <span class="section-tag">VERIFIED FROM RESUME</span>
       </div>
+
       <div class="skills-grid reveal">
         <div class="skill-group">
           <span class="skill-index">01</span>
-          <h3>Languages</h3>
-          <p>C · C++ · Python · Java</p>
+          <h3>Programming Languages</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">C++ (400+ LeetCode)</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Java</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">02</span>
-          <h3>Frontend</h3>
-          <p>HTML · CSS · JavaScript · React.js · Next.js</p>
+          <h3>Frontend Development</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3 / SASS</span>
+            <span class="skill-pill">JavaScript (ES6+)</span>
+            <span class="skill-pill">React.js</span>
+            <span class="skill-pill">Next.js</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">03</span>
-          <h3>Backend</h3>
-          <p>Node.js · Express.js · FastAPI · Strapi</p>
+          <h3>Backend Development</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Express.js</span>
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">Strapi</span>
+            <span class="skill-pill">RESTful APIs</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">04</span>
-          <h3>Real-Time</h3>
-          <p>Socket.io · WebSockets</p>
+          <h3>Real-Time Systems</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">Socket.io</span>
+            <span class="skill-pill">WebSockets</span>
+            <span class="skill-pill">Event-Driven Architecture</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">05</span>
-          <h3>Data</h3>
-          <p>MongoDB · MySQL · Vector Databases</p>
+          <h3>Databases</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Vector Databases</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">06</span>
-          <h3>AI / GenAI</h3>
-          <p>LangChain · RAG · Gemini API · ML Training · Regression · Data Mining</p>
+          <h3>AI, GenAI & ML</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">LangChain</span>
+            <span class="skill-pill">RAG (Retrieval-Augmented Generation)</span>
+            <span class="skill-pill">Google Gemini API</span>
+            <span class="skill-pill">MediaPipe</span>
+            <span class="skill-pill">ML Model Training</span>
+            <span class="skill-pill">Data Regression</span>
+            <span class="skill-pill">Data Mining</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">07</span>
-          <h3>Cloud & DevOps</h3>
-          <p>Docker · AWS · Git · GitHub · CI/CD</p>
+          <h3>DevOps & Cloud</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">Docker Containerization</span>
+            <span class="skill-pill">AWS Deployment</span>
+            <span class="skill-pill">CI/CD Pipelines</span>
+            <span class="skill-pill">Vercel & Render</span>
+          </div>
         </div>
+
         <div class="skill-group">
           <span class="skill-index">08</span>
-          <h3>Tools</h3>
-          <p>Postman · JMeter · JWT · bcrypt</p>
+          <h3>Authentication & Security</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">JSON Web Tokens (JWT)</span>
+            <span class="skill-pill">bcrypt</span>
+            <span class="skill-pill">Token-based Auth</span>
+            <span class="skill-pill">Session Management</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span class="skill-index">09</span>
+          <h3>Tools & Testing</h3>
+          <div class="skill-chips">
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">Postman</span>
+            <span class="skill-pill">JMeter</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section about-section">
-      <div class="about-left reveal">
-        <p class="eyebrow">04 / ABOUT</p>
-        <h2>Curious by<br><span>default.</span></h2>
-      </div>
-      <div class="about-copy reveal">
-        <p class="lead">I'm Anshu, a final-year Computer Science student who likes turning ideas into systems people can
-          actually use.</p>
-        <p>My experience spans full-stack development, real-time applications, cloud deployment and applied AI. I enjoy
-          the part where engineering becomes tangible: a dashboard gets faster, two users see the same state instantly,
-          or an AI feature solves a real problem instead of just looking impressive.</p>
-        <p>I'm currently looking for a full-time software engineering opportunity where I can keep building, learn from
-          strong engineers and take ownership of meaningful products.</p>
-        <div class="about-links">
-          <a href="mailto:anshumiglani0808@gmail.com">anshumiglani0808@gmail.com ↗</a>
-          <span>Kurukshetra, India</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section achievements section-dark">
+    <!-- 04 / ACHIEVEMENTS & CERTIFICATIONS -->
+    <section id="achievements" class="section achievements section-dark">
       <div class="section-heading reveal">
-        <p class="eyebrow">05 / MILESTONES</p>
-        <h2>Things I'm<br><span>proud of.</span></h2>
+        <div>
+          <p class="eyebrow">04 / HONORS & CERTIFICATIONS</p>
+          <h2>Milestones &<br><span>competitive recognition.</span></h2>
+        </div>
+        <span class="section-tag">COMPETITIVE CODING</span>
       </div>
+
       <div class="achievement-grid reveal">
-        <div class="achievement"><strong>400+</strong><span>LeetCode problems solved</span></div>
-        <div class="achievement"><strong>5★</strong><span>HackerRank C++ rating</span></div>
-        <div class="achievement"><strong>Finalist</strong><span>Smart India Hackathon 2024</span></div>
-        <div class="achievement"><strong>Winner</strong><span>Aawahan 2023 Coding Competition</span></div>
-        <div class="achievement"><strong>Participant</strong><span>Kavach 2023 Hackathon</span></div>
-        <div class="achievement"><strong>IBM</strong><span>Generative AI Applications with RAG & LangChain —
-            pursuing</span></div>
-        <div class="achievement"><strong>JPMorgan</strong><span>Virtual software engineering experience</span></div>
-        <div class="achievement"><strong>Skyscanner</strong><span>Virtual software engineering experience</span></div>
+        <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer"
+          class="achievement achievement-interactive" title="Visit Anshu's LeetCode Profile">
+          <div class="ach-header">
+            <strong>400+</strong>
+            <span class="external-icon">↗</span>
+          </div>
+          <span class="ach-label">LeetCode Problems Solved</span>
+          <p class="ach-detail">Active C++ problem solver covering Arrays, Trees, Dynamic Programming, Graphs, and
+            System Fundamentals.</p>
+          <span class="ach-badge">Click to view LeetCode profile</span>
+        </a>
+
+        <div class="achievement">
+          <strong>5★</strong>
+          <span class="ach-label">HackerRank C++ Rating</span>
+          <p class="ach-detail">Top-tier gold badge for algorithmic precision, memory management, and data structure
+            execution in C++.</p>
+        </div>
+
+        <div class="achievement">
+          <strong>Finalist</strong>
+          <span class="ach-label">Smart India Hackathon (SIH) 2024</span>
+          <p class="ach-detail">Recognized among top nationwide engineering teams solving critical national challenges.
+          </p>
+        </div>
+
+        <div class="achievement">
+          <strong>Winner</strong>
+          <span class="ach-label">Aawahan 2023 Coding Competition</span>
+          <p class="ach-detail">1st Place in competitive programming and algorithmic problem solving.</p>
+        </div>
+
+        <div class="achievement">
+          <strong>Participant</strong>
+          <span class="ach-label">Kavach 2023 Hackathon</span>
+          <p class="ach-detail">National cybersecurity hackathon focused on robust digital defense solutions.</p>
+        </div>
+
+        <div class="achievement">
+          <strong>IBM</strong>
+          <span class="ach-label">Generative AI with RAG & LangChain</span>
+          <p class="ach-detail">Pursuing Coursera specialization in production LLM orchestration and vector embeddings.
+          </p>
+        </div>
+
+        <div class="achievement">
+          <strong>JPMorgan</strong>
+          <span class="ach-label">Software Engineering Virtual Experience</span>
+          <p class="ach-detail">Interface development and financial data feed processing via JPMorgan Chase & Co.
+            program.</p>
+        </div>
+
+        <div class="achievement">
+          <strong>Skyscanner</strong>
+          <span class="ach-label">Software Engineering Virtual Experience</span>
+          <p class="ach-detail">Front-end web architecture and microservices handling real-time flight query telemetry.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="section education">
+    <!-- 05 / EDUCATION -->
+    <section id="education" class="section education">
       <div class="section-heading reveal">
-        <p class="eyebrow">06 / EDUCATION</p>
-        <h2>The foundation<br>behind the <span>work.</span></h2>
+        <div>
+          <p class="eyebrow">05 / ACADEMIC BACKGROUND</p>
+          <h2>The foundation<br>behind the <span>engineering.</span></h2>
+        </div>
+        <span class="section-tag">ACADEMIC EXCELLENCE</span>
       </div>
+
       <div class="timeline reveal">
         <div class="timeline-item">
-          <span>2022 — 2026</span>
-          <div>
-            <h3>UIET, Kurukshetra</h3>
-            <p>B.Tech in Computer Science Engineering · <strong>8.9/10 CGPA</strong></p>
+          <div class="timeline-year">
+            <span>2022 — 2026</span>
+            <span class="timeline-status">Current Final Year</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>UIET, Kurukshetra University</h3>
+              <span class="score-badge">CGPA: 8.9 / 10</span>
+            </div>
+            <p class="degree-title">Bachelor of Technology (B.Tech) in Computer Science Engineering</p>
+            <p class="timeline-desc">Kurukshetra, Haryana, India. Core curriculum: Data Structures & Algorithms,
+              Database Management Systems, Computer Networks, Operating Systems, System Design, and Machine Learning.
+            </p>
           </div>
         </div>
+
         <div class="timeline-item">
-          <span>2022</span>
-          <div>
-            <h3>Maharana Pratap Public School</h3>
-            <p>Class 12 (CBSE) · <strong>94.2%</strong></p>
+          <div class="timeline-year">
+            <span>2022</span>
+            <span class="timeline-status">Class 12</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Maharana Pratap Public School, Kurukshetra</h3>
+              <span class="score-badge score-high">Score: 94.2%</span>
+            </div>
+            <p class="degree-title">Class 12 (CBSE) — Senior Secondary Certificate</p>
+            <p class="timeline-desc">Distinction in Science & Mathematics with a cumulative score of 94.2%.</p>
           </div>
         </div>
+
         <div class="timeline-item">
-          <span>2020</span>
-          <div>
-            <h3>Holy Child School</h3>
-            <p>Class 10 (CBSE) · <strong>89.8%</strong></p>
+          <div class="timeline-year">
+            <span>2020</span>
+            <span class="timeline-status">Class 10</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Holy Child School, Kurukshetra</h3>
+              <span class="score-badge">Score: 89.8%</span>
+            </div>
+            <p class="degree-title">Class 10 (CBSE) — Secondary School Certificate</p>
+            <p class="timeline-desc">Academic excellence across core analytical and scientific disciplines.</p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- 06 / ABOUT -->
+    <section id="about" class="section about-section section-dark">
+      <div class="about-left reveal">
+        <p class="eyebrow">06 / ABOUT ANSHU</p>
+        <h2>Driven by curiosity,<br><span>measured by impact.</span></h2>
+        <div class="about-contact-pills">
+          <a href="mailto:anshumiglani0808@gmail.com" class="about-pill">anshumiglani0808@gmail.com ↗</a>
+          <a href="tel:+919350871220" class="about-pill">+91 9350871220 ↗</a>
+          <span class="about-pill pill-location">Kurukshetra, India</span>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="lead">
+          I'm Anshu, a final-year Computer Science undergraduate at UIET Kurukshetra with a strong passion for building
+          end-to-end web architectures, high-concurrency real-time apps, and practical AI systems.
+        </p>
+        <p>
+          My engineering philosophy centers around tangible reliability: reducing platform lookup latency by 30% during
+          my internship at Transpacks Technologies, designing bi-directional WebSocket rooms that keep dozens of
+          developers in sync without dropouts, and integrating Generative AI (Gemini API, RAG, LangChain) that adds
+          measurable value rather than mere novelty.
+        </p>
+        <p>
+          With <strong>400+ LeetCode problems solved</strong> in C++ and a 5-star HackerRank rating, I'm well-grounded
+          in algorithms, memory models, and system tradeoffs. I'm actively seeking <strong>full-time Software
+            Development Engineer (SDE)</strong> opportunities where I can take ownership, work alongside collaborative
+          senior teams, and ship resilient software.
+        </p>
+        <div class="about-actions">
+          <a class="button primary small" href="Anshu_Miglani_Resume.pdf" target="_blank" rel="noopener noreferrer"
+            download="Anshu_Miglani_Resume.pdf">Download Resume (PDF) 📄</a>
+          <a class="button ghost small" href="#contact">Get In Touch ↓</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 / CONTACT -->
     <section id="contact" class="contact-section">
       <div class="contact-inner reveal">
-        <p class="eyebrow">07 / CONTACT</p>
-        <h2>Have a problem<br>worth <em>building?</em></h2>
-        <p>I'm open to full-time software engineering opportunities, interesting products and conversations with people
-          who love building.</p>
-        <a class="contact-email" href="mailto:anshumiglani0808@gmail.com">anshumiglani0808@gmail.com <span>↗</span></a>
+        <p class="eyebrow">07 / GET IN TOUCH</p>
+        <h2>Let's build something<br><em>extraordinary together.</em></h2>
+        <p class="contact-lead">
+          Whether you have an open full-time SDE position, a challenging technical problem, or a cutting-edge web
+          project, my inbox is always open.
+        </p>
+
+        <!-- Interactive Direct Action Cards -->
+        <div class="contact-card-grid">
+          <div class="contact-card">
+            <span class="card-icon">✉️</span>
+            <div class="card-info">
+              <span class="card-label">Primary Email</span>
+              <a href="mailto:anshumiglani0808@gmail.com" class="card-link">anshumiglani0808@gmail.com</a>
+            </div>
+            <button class="copy-btn mini-copy" data-copy="anshumiglani0808@gmail.com" title="Copy Email">Copy</button>
+          </div>
+
+          <div class="contact-card">
+            <span class="card-icon">📱</span>
+            <div class="card-info">
+              <span class="card-label">Phone / WhatsApp</span>
+              <a href="tel:+919350871220" class="card-link">+91 9350871220</a>
+            </div>
+            <button class="copy-btn mini-copy" data-copy="+91 9350871220" title="Copy Phone">Copy</button>
+          </div>
+
+          <div class="contact-card">
+            <span class="card-icon">📍</span>
+            <div class="card-info">
+              <span class="card-label">Location</span>
+              <span class="card-static">Kurukshetra, Haryana, India</span>
+            </div>
+            <span class="card-badge">Open to Relocation</span>
+          </div>
+        </div>
+
         <div class="social-row">
-          <a href="https://www.linkedin.com/in/anshu-miglani-a00755257/" data-placeholder="linkedin">LinkedIn</a>
-          <a href="https://www.github.com/AnshuMiglani" data-placeholder="github">GitHub</a>
-          <a href="https://www.leetcode.com/u/Anshu_Miglani/" data-placeholder="leetcode">LeetCode</a>
+          <a href="https://www.linkedin.com/in/anshu-miglani-a00755257/" target="_blank" rel="noopener noreferrer"
+            class="social-btn">
+            <span>LinkedIn Profile</span>
+            <span class="btn-arrow">↗</span>
+          </a>
+          <a href="https://github.com/AnshuMiglani" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <span>GitHub Profile</span>
+            <span class="btn-arrow">↗</span>
+          </a>
+          <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <span>LeetCode (400+)</span>
+            <span class="btn-arrow">↗</span>
+          </a>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- Floating Recruiter Dock -->
+  <aside class="floating-dock" aria-label="Quick contact dock">
+    <a href="Anshu_Miglani_Resume.pdf" target="_blank" rel="noopener noreferrer" download="Anshu_Miglani_Resume.pdf"
+      class="dock-btn" title="Download Resume PDF">
+      <span class="dock-icon">📄</span>
+      <span class="dock-tooltip">Resume PDF</span>
+    </a>
+    <a href="https://github.com/AnshuMiglani" target="_blank" rel="noopener noreferrer" class="dock-btn" title="GitHub">
+      <span class="dock-icon">💻</span>
+      <span class="dock-tooltip">GitHub</span>
+    </a>
+    <a href="https://www.linkedin.com/in/anshu-miglani-a00755257/" target="_blank" rel="noopener noreferrer"
+      class="dock-btn" title="LinkedIn">
+      <span class="dock-icon">💼</span>
+      <span class="dock-tooltip">LinkedIn</span>
+    </a>
+    <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer" class="dock-btn"
+      title="LeetCode">
+      <span class="dock-icon">🧠</span>
+      <span class="dock-tooltip">LeetCode (400+)</span>
+    </a>
+    <a href="mailto:anshumiglani0808@gmail.com" class="dock-btn primary-dock" title="Send Email">
+      <span class="dock-icon">✉️</span>
+      <span class="dock-tooltip">Email Me</span>
+    </a>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="alert" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMsg">Copied to clipboard!</span>
+  </div>
+
+  <!-- Footer -->
   <footer>
-    <span>© <span id="year"></span> Anshu Miglani</span>
-    <span>Built with curiosity & caffeine.</span>
-    <a href="#top">Back to top ↑</a>
+    <div class="footer-left">
+      <span>© <span id="year"></span> Anshu Miglani</span>
+      <span class="footer-dot">·</span>
+      <span>Built with precision & curiosity.</span>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/AnshuMiglani" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/anshu-miglani-a00755257/" target="_blank"
+        rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://leetcode.com/u/Anshu_Miglani/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      <a href="mailto:anshumiglani0808@gmail.com">Email</a>
+    </div>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
   </footer>
 
   <script src="script.js"></script>

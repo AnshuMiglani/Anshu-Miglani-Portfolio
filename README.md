@@ -9,10 +9,10 @@ A responsive, recruiter-ready, high-aesthetic personal portfolio built directly 
 | Project | Live Demo | Source Code | Key Tech |
 |---|---|---|---|
 | **CollabCode** (Real-Time Collaborative Code Editor) | [collab-code-self.vercel.app](https://collab-code-self.vercel.app) | [GitHub](https://github.com/AnshuMiglani/CollabCode) | React.js, Node.js, Express.js, Socket.io, Monaco Editor, WebSockets |
-| **MakeFit** (Fitness Web App & FitBot AI) | [gym-webiste-six.vercel.app](https://gym-webiste-six.vercel.app) | [GitHub](https://github.com/AnshuMiglani/GymWebiste) | MERN Stack (MongoDB, Express, React, Node), Gemini API, JWT Auth |
-| **Real-Time Weather App** | [weatherapp-page-psi.vercel.app](https://weatherapp-page-psi.vercel.app) | [GitHub](https://github.com/AnshuMiglani/weatherapp_page) | JavaScript (ES6+), OpenWeather API, Dynamic Icons |
-| **TypingSpeed App** | [typingspeed-two.vercel.app](https://typingspeed-two.vercel.app) | [GitHub](https://github.com/AnshuMiglani/typingspeed) | JavaScript, CSS3, WPM Tracking |
-| **Supportpilot-AI** | — | [GitHub](https://github.com/AnshuMiglani/Supportpilot-AI) | TypeScript, LangChain, RAG Architecture, Vector DBs |
+| **MakeFit** (Fitness Web App & FitBot AI) | [gym-webiste-beryl.vercel.app](https://gym-webiste-beryl.vercel.app/) | [GitHub](https://github.com/AnshuMiglani/GymWebiste) | MERN Stack (MongoDB, Express, React, Node), Gemini API, JWT Auth |
+| **React Pokémon Explorer** (Interactive Deck & Search) | [react-pokemon-kohl.vercel.app](https://react-pokemon-kohl.vercel.app/) | [GitHub](https://github.com/AnshuMiglani/react_pokemon) | React.js, PokéAPI, State Management, Dynamic CSS Transforms |
+| **TypingSpeed App** (Precision Typing Metrics) | [typingspeed-46kd.vercel.app](https://typingspeed-46kd.vercel.app/) | [GitHub](https://github.com/AnshuMiglani/typingspeed) | JavaScript, CSS3, WPM Tracking Engine |
+| **Supportpilot-AI** (Customer Support Copilot) | [supportpilot-ai-4i8s.onrender.com](https://supportpilot-ai-4i8s.onrender.com/) | [GitHub](https://github.com/AnshuMiglani/Supportpilot-AI) | TypeScript, LangChain, RAG Architecture, Vector DBs, Render |
 
 ---
 
@@ -39,7 +39,7 @@ A responsive, recruiter-ready, high-aesthetic personal portfolio built directly 
 
 ## 🛠️ Key Features of This Portfolio
 
-1. **Interactive Resume Drawer/Modal**: Built-in, clean, printable resume modal accessible from Header, Hero, About, and Floating Dock.
+1. **Direct Resume PDF View & Download**: Direct access to Anshu's resume (`Anshu_Miglani_Resume.pdf`) with 1-click open/download across all navigation touchpoints.
 2. **Project Filter System**: Instant filtering by Real-Time, AI/GenAI, and Full-Stack categories.
 3. **1-Click Copy with Toast Notification**: Instant clipboard copy for email and phone number with feedback toast.
 4. **Recruiter Floating Dock**: Quick-reach dock on bottom-right for instant navigation to Resume, GitHub, LinkedIn, LeetCode, and Email.

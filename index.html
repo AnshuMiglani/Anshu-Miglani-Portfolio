@@ -411,7 +411,7 @@ io.on(<em>'connection'</em>, (socket) => {
             </div>
 
             <div class="project-cta-row">
-              <a class="btn-action btn-live" href="https://gym-webiste-six.vercel.app" target="_blank"
+              <a class="btn-action btn-live" href="https://gym-webiste-beryl.vercel.app/" target="_blank"
                 rel="noopener noreferrer">
                 <span>Live Demo</span>
                 <span class="btn-arrow">↗</span>
@@ -437,54 +437,57 @@ io.on(<em>'connection'</em>, (socket) => {
             </div>
             <div class="visual-interactive-footer">
               <span>MERN + AI Assistant</span>
-              <a href="https://gym-webiste-six.vercel.app" target="_blank" rel="noopener noreferrer"
+              <a href="https://gym-webiste-beryl.vercel.app/" target="_blank" rel="noopener noreferrer"
                 class="visual-launch">Open MakeFit ↗</a>
             </div>
           </div>
         </article>
 
-        <!-- Project 3: Real-Time Weather App -->
-        <article class="project-card reveal" data-category="realtime">
+        <!-- Project 3: React Pokémon Explorer & Deck -->
+        <article class="project-card reveal" data-category="fullstack">
           <div class="project-number">03</div>
           <div class="project-content">
             <div class="project-meta-row">
               <div class="project-meta">
-                <span>API INTEGRATION · CLIENT ARCHITECTURE</span>
-                <span>OpenWeather API · Dynamic JS · CSS3</span>
+                <span>REACT ARCHITECTURE · REST API</span>
+                <span>React.js · PokéAPI · Dynamic Search</span>
               </div>
               <span class="live-indicator"><span class="pulse-dot"></span> Live on Vercel</span>
             </div>
 
-            <h3 class="project-title">Real-Time Global Weather App</h3>
+            <h3 class="project-title">React Pokémon Explorer & Interactive Deck</h3>
 
             <p class="project-desc">
-              Integrated the <strong>OpenWeather API</strong> to deliver accurate, real-time meteorological metrics for
-              <strong>100+ global locations</strong>, including dynamic temperature updates, humidity, barometric
-              pressure, and multi-day forecasts.
+              Engineered a high-performance Pokémon discovery web application in <strong>React.js</strong> interfacing
+              directly with the <strong>PokéAPI</strong>, featuring real-time search filtering, dynamic state management,
+              and interactive 3D card presentations.
             </p>
 
             <ul class="project-highlights">
-              <li>Deployed the web application reaching <strong>50+ active users with 99% uptime</strong> and sub-second
-                API response caching.</li>
-              <li>Engineered a dynamic UI featuring reactive weather condition icons, glassmorphism telemetry cards, and
-                zero-dependency vanilla JavaScript performance.</li>
+              <li>Engineered real-time, zero-latency client-side search filtering across Pokémon species with instantaneous
+                DOM updates and dynamic query matching.</li>
+              <li>Designed interactive Pokémon cards with responsive CSS morphing transforms, type-based color themes,
+                and comprehensive battle stat breakdowns (HP, Attack, Defense, Speed, Abilities).</li>
+              <li>Optimized component architecture and asynchronous API data pipelines, ensuring fluid 60 FPS browsing
+                and zero layout shifts across desktop and mobile devices.</li>
             </ul>
 
             <div class="project-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">PokéAPI</span>
               <span class="tag">JavaScript (ES6+)</span>
-              <span class="tag">OpenWeather API</span>
-              <span class="tag">Async/Await</span>
-              <span class="tag">Dynamic Weather UI</span>
+              <span class="tag">Component State</span>
+              <span class="tag">CSS3 Transforms</span>
               <span class="tag">Vercel</span>
             </div>
 
             <div class="project-cta-row">
-              <a class="btn-action btn-live" href="https://weatherapp-page-psi.vercel.app" target="_blank"
+              <a class="btn-action btn-live" href="https://react-pokemon-kohl.vercel.app/" target="_blank"
                 rel="noopener noreferrer">
                 <span>Live Demo</span>
                 <span class="btn-arrow">↗</span>
               </a>
-              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/weatherapp_page" target="_blank"
+              <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/react_pokemon" target="_blank"
                 rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path
@@ -492,21 +495,32 @@ io.on(<em>'connection'</em>, (socket) => {
                 </svg>
                 <span>View Source</span>
               </a>
-              <span class="metric-pill">100+ Global Locations</span>
+              <span class="metric-pill">PokéAPI Dynamic Fetch</span>
             </div>
           </div>
 
-          <div class="project-visual weather-visual">
-            <div class="sun"></div>
-            <div class="cloud"></div>
-            <div class="weather-telemetry">
-              <strong>24°C</strong>
-              <small>LIVE WEATHER METRICS</small>
+          <div class="project-visual pokemon-visual">
+            <div class="poke-card-preview">
+              <div class="poke-badge-top">
+                <span class="poke-id">#025</span>
+                <span class="poke-type">ELECTRIC</span>
+                <span class="poke-hp">HP 100</span>
+              </div>
+              <div class="poke-avatar-wrapper">
+                <div class="poke-glow-circle"></div>
+                <div class="poke-avatar-icon">⚡</div>
+              </div>
+              <div class="poke-name">PIKACHU</div>
+              <div class="poke-stat-bars">
+                <div class="stat-bar-item"><span>ATK</span><div class="bar-fill" style="width: 65%;"></div><strong>55</strong></div>
+                <div class="stat-bar-item"><span>DEF</span><div class="bar-fill" style="width: 50%;"></div><strong>40</strong></div>
+                <div class="stat-bar-item"><span>SPD</span><div class="bar-fill" style="width: 90%;"></div><strong>90</strong></div>
+              </div>
             </div>
             <div class="visual-interactive-footer">
-              <span>Real-Time Forecasts</span>
-              <a href="https://weatherapp-page-psi.vercel.app" target="_blank" rel="noopener noreferrer"
-                class="visual-launch">Check Forecast ↗</a>
+              <span>PokéAPI + React UI</span>
+              <a href="https://react-pokemon-kohl.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Explore Deck ↗</a>
             </div>
           </div>
         </article>
@@ -520,7 +534,7 @@ io.on(<em>'connection'</em>, (socket) => {
                 <span>APPLIED GENAI · RAG</span>
                 <span>TypeScript · LangChain · Vector DB</span>
               </div>
-              <span class="live-indicator"><span class="pulse-dot"></span> Active AI System</span>
+              <span class="live-indicator"><span class="pulse-dot"></span> Live on Render</span>
             </div>
 
             <h3 class="project-title">Supportpilot-AI – Contextual Customer Support Copilot</h3>
@@ -528,7 +542,7 @@ io.on(<em>'connection'</em>, (socket) => {
             <p class="project-desc">
               Engineered an intelligent customer support AI copilot utilizing <strong>LangChain</strong> and
               <strong>Retrieval-Augmented Generation (RAG)</strong> over customized knowledge repositories to automate
-              ticket resolution and provide hallucination-free contextual responses.
+              ticket resolution, manage documents, and provide hallucination-free contextual responses with source citations.
             </p>
 
             <ul class="project-highlights">
@@ -536,6 +550,7 @@ io.on(<em>'connection'</em>, (socket) => {
                 orchestration.</li>
               <li>Built with modern <strong>TypeScript</strong> architecture adhering to strict typing, streaming
                 response pipelines, and modular tool calling.</li>
+              <li>Deployed on <strong>Render</strong> supporting automated document ingestion, knowledge management, and human handoff workflows.</li>
             </ul>
 
             <div class="project-tags">
@@ -544,17 +559,22 @@ io.on(<em>'connection'</em>, (socket) => {
               <span class="tag">RAG Architecture</span>
               <span class="tag">Vector Databases</span>
               <span class="tag">Gemini API</span>
+              <span class="tag">Render</span>
             </div>
 
             <div class="project-cta-row">
+              <a class="btn-action btn-live" href="https://supportpilot-ai-4i8s.onrender.com/" target="_blank"
+                rel="noopener noreferrer">
+                <span>Live Demo</span>
+                <span class="btn-arrow">↗</span>
+              </a>
               <a class="btn-action btn-code" href="https://github.com/AnshuMiglani/Supportpilot-AI" target="_blank"
                 rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path
                     d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
                 </svg>
-                <span>View GitHub Repository</span>
-                <span class="btn-arrow">↗</span>
+                <span>View Source</span>
               </a>
               <span class="metric-pill">RAG & GenAI</span>
             </div>
@@ -568,8 +588,8 @@ io.on(<em>'connection'</em>, (socket) => {
             <div class="rag-node node-llm">LLM Augmented Response</div>
             <div class="visual-interactive-footer">
               <span>LangChain + Embeddings</span>
-              <a href="https://github.com/AnshuMiglani/Supportpilot-AI" target="_blank" rel="noopener noreferrer"
-                class="visual-launch">GitHub ↗</a>
+              <a href="https://supportpilot-ai-4i8s.onrender.com/" target="_blank" rel="noopener noreferrer"
+                class="visual-launch">Launch App ↗</a>
             </div>
           </div>
         </article>
@@ -601,7 +621,7 @@ io.on(<em>'connection'</em>, (socket) => {
             </div>
 
             <div class="project-cta-row">
-              <a class="btn-action btn-live" href="https://typingspeed-two.vercel.app" target="_blank"
+              <a class="btn-action btn-live" href="https://typingspeed-46kd.vercel.app/" target="_blank"
                 rel="noopener noreferrer">
                 <span>Live Demo</span>
                 <span class="btn-arrow">↗</span>
@@ -626,7 +646,7 @@ io.on(<em>'connection'</em>, (socket) => {
             </div>
             <div class="visual-interactive-footer">
               <span>Interactive Benchmark</span>
-              <a href="https://typingspeed-two.vercel.app" target="_blank" rel="noopener noreferrer"
+              <a href="https://typingspeed-46kd.vercel.app/" target="_blank" rel="noopener noreferrer"
                 class="visual-launch">Test Speed ↗</a>
             </div>
           </div>
